@@ -70,4 +70,11 @@ class MainActivity : BaseActivity(), ClickListener, ResponseListener {
             }
         })
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        if(!subscribe.isDisposed){
+            subscribe.dispose()
+        }
+    }
 }
