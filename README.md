@@ -8,5 +8,6 @@
 * User Login details(sample) can be acquired from hitting the 'users' endpoint
 
 # Recyclerview-JSON-Retrofit
-* Users: https://tutorialsapi.herokuapp.com/api/products
+* View JSON Response products in a recyclerview via Retrofit API call
+* Product: https://tutorialsapi.herokuapp.com/api/products
 * You can view the JSON response by hitting the 'products' endpoint
