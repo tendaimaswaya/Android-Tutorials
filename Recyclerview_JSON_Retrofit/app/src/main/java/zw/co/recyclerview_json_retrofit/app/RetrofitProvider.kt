@@ -13,7 +13,7 @@ interface Endpoint{
             "Accept: application/json"
         )*/
 
-    @POST("products/")
+    @POST("products")
     fun getProducts(): Call<ArrayList<Product>>
 }
 class RetrofitProvider {

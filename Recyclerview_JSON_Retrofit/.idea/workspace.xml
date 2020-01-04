@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ef8af5b5-6953-4ef7-afa1-bd0088fe0c19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app/src/main/java/zw/co/recyclerview_json_retrofit/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/zw/co/recyclerview_json_retrofit/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/zw/co/recyclerview_json_retrofit/app/RetrofitProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/zw/co/recyclerview_json_retrofit/app/RetrofitProvider.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +20,7 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_28_-_Pie" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_S_API_22_Lollipop_-_5" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -37,8 +38,31 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/zw/co/recyclerview_json_retrofit/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="70" column="10" lean-forward="true" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+            <state relative-caret-position="279">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+              <folding>
+                <element signature="e#1629#1645#0" />
+                <element signature="e#1759#1874#0" />
+                <element signature="e#1896#2572#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/zw/co/recyclerview_json_retrofit/app/RetrofitProvider.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/zw/co/recyclerview_json_retrofit/util/CircleTransform.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-83">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -72,13 +96,14 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/zw/co/recyclerview_json_retrofit/data/adapter/ProductAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_product.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/zw/co/recyclerview_json_retrofit/app/RetrofitProvider.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/zw/co/recyclerview_json_retrofit/MainActivity.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2364" />
-    <option name="y" value="131" />
+    <option name="x" value="2263" />
+    <option name="y" value="78" />
     <option name="width" value="1680" />
     <option name="height" value="937" />
   </component>
@@ -130,7 +155,7 @@
               <item name="zw" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="co" type="462c0819:PsiDirectoryNode" />
               <item name="recyclerview_json_retrofit" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Recyclerview_JSON_Retrofit" type="1abcf292:AndroidViewProjectNode" />
@@ -140,16 +165,6 @@
               <item name="co" type="462c0819:PsiDirectoryNode" />
               <item name="recyclerview_json_retrofit" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Recyclerview_JSON_Retrofit" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="zw" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="co" type="462c0819:PsiDirectoryNode" />
-              <item name="recyclerview_json_retrofit" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Recyclerview_JSON_Retrofit" type="1abcf292:AndroidViewProjectNode" />
@@ -266,7 +281,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2364" y="131" width="1680" height="937" extended-state="0" />
+    <frame x="2263" y="78" width="1680" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32967034" />
@@ -314,10 +329,29 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/zw/co/recyclerview_json_retrofit/app/RetrofitProvider.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/zw/co/recyclerview_json_retrofit/util/CircleTransform.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/zw/co/recyclerview_json_retrofit/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="70" column="10" lean-forward="true" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+        <state relative-caret-position="279">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+          <folding>
+            <element signature="e#1629#1645#0" />
+            <element signature="e#1759#1874#0" />
+            <element signature="e#1896#2572#0" />
+          </folding>
         </state>
       </provider>
     </entry>

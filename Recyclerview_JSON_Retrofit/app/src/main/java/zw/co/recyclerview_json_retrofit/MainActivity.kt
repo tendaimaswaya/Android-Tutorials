@@ -32,7 +32,6 @@ class MainActivity : BaseActivity(), ClickListener, ResponseListener {
 
     val observer: Subject<ArrayList<Product>> = PublishSubject.create()
     lateinit var subscribe: Disposable
-
     private var list:ArrayList<Product> = ArrayList()
     private var adapter = ProductAdapter(this)
 
@@ -43,6 +42,10 @@ class MainActivity : BaseActivity(), ClickListener, ResponseListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        init()
+    }
+
+    fun init(){
         onResponseListener = this
         recycler_view.initRecyclerview().adapter = adapter
         initObservable()
@@ -52,6 +55,7 @@ class MainActivity : BaseActivity(), ClickListener, ResponseListener {
     fun initObservable(){
         subscribe = observer.map { adapter.setDataSource(it) } .subscribe{ adapter.notifyDataSetChanged() }
     }
+
     fun loadContent(){
         val client = RetrofitProvider.provideAPI()
         val call: Call<ArrayList<Product>> = client.getProducts()
